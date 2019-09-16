@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 class Challenge2(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Chrome('chromedriver.exe')
+        self.driver = webdriver.Chrome()
 
     def tearDown(self):
         self.driver.close()
